@@ -1,0 +1,65 @@
+# =========================
+# Build Folders
+# =========================
+bin/
+obj/
+Debug/
+Release/
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio / VS Code
+# =========================
+.vs/
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# ASP.NET Core
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Secrets
+# =========================
+secrets.json
+*.pfx
+*.key
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+
+# =========================
+# Entity Framework
+# =========================
+# Uncomment if you DON'T want migrations in repo
+# Migrations/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp

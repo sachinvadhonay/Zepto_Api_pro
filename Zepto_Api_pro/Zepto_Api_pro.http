@@ -1,0 +1,6 @@
+@Zepto_Api_pro_HostAddress = http://localhost:5108
+
+GET {{Zepto_Api_pro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

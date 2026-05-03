@@ -1,0 +1,396 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\mvcforlife\\Zepto_Api_pro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\midlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\midlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\implementations\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\implementations\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\services\\implementations\\unitofservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\services\\implementations\\unitofservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\services\\interfaces\\iunitofservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\services\\interfaces\\iunitofservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\interfaces\\ivendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\interfaces\\ivendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\repositories\\implementations\\vendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\repositories\\implementations\\vendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\zepto_api_pro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\zepto_api_pro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|h:\\mvcforlife\\zepto_api_pro\\zepto_api_pro\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38032F7B-B88E-48D0-9C72-46E1D0576FA3}|Zepto_Api_pro\\Zepto_Api_pro.csproj|solutionrelative:zepto_api_pro\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Midlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Midlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Midlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Midlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:06:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:16:12.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Controllers\\ProductController.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T06:34:29.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Interfaces\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:25:29.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Services\\Implementations\\ProductService.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Services\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAgwJUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:24:25.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitOfService.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Implementations\\UnitOfService.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Services\\Implementations\\UnitOfService.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Implementations\\UnitOfService.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Services\\Implementations\\UnitOfService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:26:16.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Program.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Program.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Program.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T12:02:24.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Implementations\\InventoryRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\InventoryRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Implementations\\InventoryRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:25:43.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:24:04.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:16:27.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\DTOs\\UpdateProductDto.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\DTOs\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T07:14:41.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUnitOfService.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Interfaces\\IUnitOfService.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Services\\Interfaces\\IUnitOfService.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Services\\Interfaces\\IUnitOfService.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Services\\Interfaces\\IUnitOfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:25:54.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\DTOs\\CreateProductDto.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\DTOs\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:10:09.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IVendorRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IVendorRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Interfaces\\IVendorRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Interfaces\\IVendorRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Interfaces\\IVendorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:28:44.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\DTOs\\ProductDto.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:08:33.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VendorRepository.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\VendorRepository.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Repositories\\Implementations\\VendorRepository.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Repositories\\Implementations\\VendorRepository.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Repositories\\Implementations\\VendorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:29:00.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Vendor.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Models\\Vendor.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Vendor.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Models\\Vendor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:44:23.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Models\\Product.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Product.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Models\\Product.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:39:38.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Properties\\launchSettings.json",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Zepto_Api_pro\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T08:59:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Zepto_Api_pro.csproj",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Zepto_Api_pro.csproj",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
+              "RelativeToolTip": "Zepto_Api_pro\\Zepto_Api_pro.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T08:52:41.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Address.cs",
+              "DocumentMoniker": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Zepto_Api_pro\\Models\\Address.cs",
+              "ToolTip": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Models\\Address.cs",
+              "RelativeToolTip": "Zepto_Api_pro\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:52:37.573Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
