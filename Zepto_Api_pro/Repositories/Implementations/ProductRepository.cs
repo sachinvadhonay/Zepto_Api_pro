@@ -37,5 +37,17 @@ namespace Zepto_Api_pro.Repositories.Implementations
         {
             _context.Products.Remove(product);
         }
+
+        public async Task<List<Product>> GetProductByCategoryAsync(int categoryId)
+        {
+            return await _context.Products.Where(p=>p.CategoryId == categoryId)
+                .Include(p=>p.Inventories).ToListAsync();
+        }
+
+        public async Task<List<ProductCategory>> getallcategory()
+        {
+             return await _context.ProductCategories.ToListAsync();
+        }
+
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj": {}
+    "E:\\MVC_FOR_LIFE\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj": {}
   },
   "projects": {
-    "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj": {
+    "E:\\MVC_FOR_LIFE\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
+        "projectUniqueName": "E:\\MVC_FOR_LIFE\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
         "projectName": "Zepto_Api_pro",
-        "projectPath": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
-        "packagesPath": "C:\\Users\\sachinvr\\.nuget\\packages\\",
-        "outputPath": "H:\\mvcforlife\\Zepto_Api_pro\\Zepto_Api_pro\\obj\\",
+        "projectPath": "E:\\MVC_FOR_LIFE\\Zepto_Api_pro\\Zepto_Api_pro\\Zepto_Api_pro.csproj",
+        "packagesPath": "C:\\Users\\RRMINDS\\.nuget\\packages\\",
+        "outputPath": "E:\\MVC_FOR_LIFE\\Zepto_Api_pro\\Zepto_Api_pro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sachinvr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RRMINDS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

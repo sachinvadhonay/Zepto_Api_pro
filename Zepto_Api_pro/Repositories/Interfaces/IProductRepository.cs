@@ -12,5 +12,10 @@ namespace Zepto_Api_pro.Repositories.Interfaces
         Task RepAddProduct(Product product);
 
         Task Delete(Product product);
+        Task<List<Product>> GetProductByCategoryAsync(int categoryId);
+
+        Task<List<ProductCategory>> getallcategory();
+
+         
     }
 }

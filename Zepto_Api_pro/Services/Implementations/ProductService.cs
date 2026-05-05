@@ -160,5 +160,38 @@ namespace Zepto_Api_pro.Services.Implementations
             await _unitOfSevice.SaveProducts();
 
         }
+
+
+        public async Task<List<ProductDto>> GetProductsByCategory(int categoryId)
+        {
+            var products = await _unitOfSevice.Products.GetProductByCategoryAsync(categoryId);
+
+            if(products == null || !products.Any())
+            {
+                throw new Exception("No products found for this category");
+            }
+
+            return products.Select(p=> new ProductDto
+            {
+                ProductID = p.ProductId,
+                ProductName = p.Productname,
+                Price = p.Price ?? 0,
+                ImageUrl = p.ImageUrl,
+                Quantity = p.Inventories.FirstOrDefault()?.QuatityAvailable ?? 0
+            }).ToList();
+                
+        }
+
+
+        public async Task<List<CategoryDto>> GetAllCategories()
+        {
+            var categories = await _unitOfSevice.Products.getallcategory();
+
+            return categories.Select(c => new CategoryDto
+            {
+                CategoryId = c.CategoryId,
+                CategoryName = c.Categoryname
+            }).ToList();
+        }
     }
 }
