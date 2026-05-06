@@ -30,7 +30,10 @@ namespace Zepto_Api_pro.Controllers
         {
 
             await _productservice.CreateProduct(dto);
-            return Ok("Product Created Sucessfuly");
+            return Ok(new
+            {
+                message = "Product Created Successfully"
+            });
 
         }
         [HttpPut]
@@ -39,14 +42,21 @@ namespace Zepto_Api_pro.Controllers
         {
 
             await _productservice.UpdateProduct(dto);
-            return Ok("Product Updated Successfully");
-
+            
+            return Ok(new
+            {
+                message = "Product Updated Successfully"
+            });
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _productservice.DeleteProduct(id);
-            return Ok("Deleted Successfully");
+           
+            return Ok(new
+            {
+                message = "Product Deleted Successfully"
+            });
 
         }
 
