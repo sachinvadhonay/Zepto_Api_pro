@@ -16,6 +16,9 @@ namespace Zepto_Api_pro.Repositories.Interfaces
 
         Task<List<ProductCategory>> getallcategory();
 
-         
+        Task<List<Vendor>> getallvendors();
+
+       
+
     }
 }

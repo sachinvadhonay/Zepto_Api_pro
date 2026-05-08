@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using Zepto_Api_pro.DTOs;
 using Zepto_Api_pro.Models;
 using Zepto_Api_pro.Services.Interfaces;
@@ -38,6 +39,7 @@ namespace Zepto_Api_pro.Services.Implementations
                 Description = dto.Description,
                 Price = dto.Price,
                 CategoryId = dto.CategoryId,
+                
                 CreatedAt = DateTime.Now
             };
 
@@ -87,7 +89,15 @@ namespace Zepto_Api_pro.Services.Implementations
             await _unitOfSevice.Inventory.AddAsync(inventory);
 
             await _unitOfSevice.SaveProducts();
-        }
+        } 
+
+        //public async Task<UpdateProductDto> GetProductById(int id)
+        //{
+        //    var product = await _unitOfSevice.Products.RepProductGetByIDAsync(id);
+            
+        //    if
+        //}
+
 
         public async Task UpdateProduct(UpdateProductDto dto)
         {
@@ -135,6 +145,7 @@ namespace Zepto_Api_pro.Services.Implementations
                 inventory.VendorId = dto.VendorId;
                 inventory.QuatityAvailable = dto.Quantity;
                 inventory.LastUpdated = DateTime.Now;
+                
             }
 
 
@@ -193,6 +204,21 @@ namespace Zepto_Api_pro.Services.Implementations
                 CategoryName = c.Categoryname
             }).ToList();
         }
+
+
+        public async Task<List<VendorsDto>> GetAllVendors()
+        {
+            var vendors = await _unitOfSevice.Products.getallvendors();
+
+            return vendors.Select(v => new VendorsDto
+            {
+                VendorId = v.VendorId,
+                Vendorname = v.Vendorname
+            }).ToList();
+
+        }
+         
+       
     }
 }
     

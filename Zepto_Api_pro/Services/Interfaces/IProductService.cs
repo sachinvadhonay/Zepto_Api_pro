@@ -12,5 +12,6 @@ namespace Zepto_Api_pro.Services.Interfaces
         Task<List<ProductDto>> GetProductsByCategory(int categoryId);
 
         Task<List<CategoryDto>> GetAllCategories();
+        Task<List<VendorsDto>> GetAllVendors();
     }
 }

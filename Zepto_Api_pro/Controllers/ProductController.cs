@@ -75,5 +75,14 @@ namespace Zepto_Api_pro.Controllers
             return Ok(data);
         }
 
+
+        [HttpGet("vendors")]
+        public async Task<IActionResult> GETVevdors()
+        {
+            var data = await _productservice.GetAllVendors();
+            return Ok(data);
+        }
+
+      
     }
 }

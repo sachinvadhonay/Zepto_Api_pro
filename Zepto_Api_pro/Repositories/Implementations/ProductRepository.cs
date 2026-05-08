@@ -49,5 +49,16 @@ namespace Zepto_Api_pro.Repositories.Implementations
              return await _context.ProductCategories.ToListAsync();
         }
 
+
+        public async Task<List<Vendor>> getallvendors()
+        {
+            return await _context.Vendors.ToListAsync();
+        }
+
+        //public async Task<Product> GetProductByID(int id)
+        //{
+        //    return await _context.Products.Include(p => p.Inventories)
+        //        .FirstOrDefaultAsync(p => p.ProductId == id);
+        //}
     }
 }

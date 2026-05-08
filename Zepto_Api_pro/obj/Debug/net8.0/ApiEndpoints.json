@@ -147,5 +147,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zepto_Api_pro.Controllers.ProductController",
+    "Method": "GETVevdors",
+    "RelativePath": "api/Product/vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
