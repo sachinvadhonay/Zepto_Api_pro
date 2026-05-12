@@ -7,11 +7,13 @@ namespace Zepto_Api_pro.Services.Interfaces
         Task<List<ProductDto>> GetAllProducts();
 
         Task CreateProduct(CreateProductDto dto);
-        Task UpdateProduct(UpdateProductDto dto);
+        Task UpdateProduct(int id, UpdateProductDto dto);
         Task DeleteProduct(int id);
         Task<List<ProductDto>> GetProductsByCategory(int categoryId);
 
         Task<List<CategoryDto>> GetAllCategories();
         Task<List<VendorsDto>> GetAllVendors();
+
+        Task<UpdateProductDto> GetProductById(int id);
     }
 }

@@ -89,19 +89,38 @@ namespace Zepto_Api_pro.Services.Implementations
             await _unitOfSevice.Inventory.AddAsync(inventory);
 
             await _unitOfSevice.SaveProducts();
-        } 
+        }
 
-        //public async Task<UpdateProductDto> GetProductById(int id)
-        //{
-        //    var product = await _unitOfSevice.Products.RepProductGetByIDAsync(id);
-            
-        //    if
-        //}
-
-
-        public async Task UpdateProduct(UpdateProductDto dto)
+        public async Task<UpdateProductDto> GetProductById(int id)
         {
-            var product = await _unitOfSevice.Products.RepProductGetByIDAsync(dto.ProductId);
+            var product = await _unitOfSevice.Products.RepProductGetByIDAsync(id);
+
+            if(product == null)
+            {
+                throw new  Exception("product not found");
+            }
+
+            var inventory = product.Inventories.FirstOrDefault();
+
+            return new UpdateProductDto
+            {
+                ProductId = product.ProductId,
+                Productname = product.Productname,
+                Description = product.Description,
+                Price = product.Price,
+                CategoryId = product.CategoryId,
+
+                Quantity = inventory?.QuatityAvailable ?? 0,
+                VendorId = inventory?.VendorId ?? 0,
+
+                ImageUrl = product.ImageUrl
+            };
+        }
+
+
+        public async Task UpdateProduct(int id,UpdateProductDto dto)
+        {
+            var product = await _unitOfSevice.Products.RepProductGetByIDAsync(id);
 
             if(product == null)
             {

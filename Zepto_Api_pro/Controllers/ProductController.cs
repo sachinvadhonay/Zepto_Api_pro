@@ -36,18 +36,20 @@ namespace Zepto_Api_pro.Controllers
             });
 
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Update([FromForm] UpdateProductDto dto)
+        public async Task<IActionResult> Update(int id,[FromForm] UpdateProductDto dto)
         {
 
-            await _productservice.UpdateProduct(dto);
+            await _productservice.UpdateProduct(id,dto);
             
             return Ok(new
             {
                 message = "Product Updated Successfully"
             });
         }
+
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -83,6 +85,11 @@ namespace Zepto_Api_pro.Controllers
             return Ok(data);
         }
 
-      
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetprodByID(int id)
+        {
+            var data = await _productservice.GetProductById(id);
+            return Ok(data);
+        }
     }
 }
